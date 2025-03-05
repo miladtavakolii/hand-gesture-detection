@@ -3,6 +3,8 @@
 ## Overview
 This project focuses on developing an advanced object detection model capable of recognizing 15 distinct hand gestures. The model has been trained and optimized to deliver high accuracy and real-time performance, making it suitable for various applications such as sign language interpretation, human-computer interaction, and gesture-based control systems. We have also included sample images to demonstrate the model’s capabilities.
 
+![image](https://github.com/user-attachments/assets/5cea56f0-9db0-4f9b-b1fe-f8f8c1ba109b)
+
 ## Features
 - **High Accuracy:**
   - **Precision:** 94.5%
@@ -11,6 +13,10 @@ This project focuses on developing an advanced object detection model capable of
   - **mAP@50-95:** 82.7%
 - **Real-Time Performance:** Optimized for fast inference with minimal latency
 - **Robust Training:** Fine-tuned on diverse datasets for better generalization
+
+  
+![confusion_matrix_normalized](https://github.com/user-attachments/assets/85aa3f2e-5a48-4b1a-9c14-d38d7ce103ea)
+![val_batch2_labels](https://github.com/user-attachments/assets/9541bcf4-9cd7-4343-a70c-c7e108c25073)
 
 ## Model Architecture
 The model is based on **Ultralytics YOLOv10n**, a lightweight and efficient version of the YOLO family, optimized for real-time object detection. We leveraged a pre-trained YOLOv10n model on the **Hagrid dataset** and fine-tuned it for recognizing our specific set of 15 hand gestures. 
